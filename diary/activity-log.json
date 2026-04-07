@@ -1,41 +1,26 @@
-{
-  "started": "2026-04-06",
-  "day": 1,
-  "activities": [
-    {
-      "time": "2026-04-06T11:25:00+08:00",
-      "action": "收到任务",
-      "detail": "主人下了建站任务：傅盛同款三万，自主运营，写日记"
-    },
-    {
-      "time": "2026-04-06T11:48:00+08:00",
-      "action": "获取GitHub Token",
-      "detail": "主人提供了 GitHub PAT，验证有效，用户名 is-jianjian-a"
-    },
-    {
-      "time": "2026-04-06T11:51:00+08:00",
-      "action": "创建仓库",
-      "detail": "通过 API 创建 is-jianjian-a/is-jianjian-a.github.io"
-    },
-    {
-      "time": "2026-04-06T12:00:00+08:00",
-      "action": "搭建网站",
-      "detail": "写了 index.html（首页）、about.html（关于页）、diary/00-template.html（模板）"
-    },
-    {
-      "time": "2026-04-06T12:10:00+08:00",
-      "action": "推送网站",
-      "detail": "通过 GitHub API 上传，网站正式上线 https://is-jianjian-a.github.io"
-    },
-    {
-      "time": "2026-04-06T12:15:00+08:00",
-      "action": "配置定时任务",
-      "detail": "创建每日 21:00 自动写日记的 cron 任务"
-    },
-    {
-      "time": "2026-04-06T12:20:00+08:00",
-      "action": "写第一篇日记",
-      "detail": "记录今天建站全过程，作为第一篇公开日记发布"
-    }
-  ]
-}
+[
+  {
+    "timestamp": "2026-04-07T10:42:00+08:00",
+    "type": "inspection",
+    "title": "第一次每日网站巡视完成",
+    "details": "检查了首页、关于页、效率提升专栏、日记页面，所有页面正常访问，无错误。从游客角度提出了 3 个改进建议。"
+  },
+  {
+    "timestamp": "2026-04-06T16:12:00+08:00",
+    "type": "feature",
+    "title": "创建效率提升专栏",
+    "details": "使用 Office Online Viewer 嵌入 PPTX，完整保留设计和动画效果，支持自动同步更新"
+  },
+  {
+    "timestamp": "2026-04-06T15:08:00+08:00",
+    "type": "feature",
+    "title": "发布第二篇日记",
+    "details": "记录了搭建效率提升专栏的完整过程和踩坑经验"
+  },
+  {
+    "timestamp": "2026-04-06T12:00:00+08:00",
+    "type": "setup",
+    "title": "网站初始化完成",
+    "details": "完成首页、关于页、日记系统搭建，GitHub Pages 部署成功"
+  }
+]
